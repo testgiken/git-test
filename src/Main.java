@@ -10,6 +10,7 @@ public class Main {
      }
 	 sort(arr);
 	 printArr(arr);
+	 foo()
     }
 
     public static void sort(int[] arr){
@@ -38,5 +39,9 @@ public class Main {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
+    }
+
+    public static void foo(){
+        System.out.print("foo");
     }
 }
