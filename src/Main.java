@@ -10,7 +10,6 @@ public class Main {
      }
 	 sort(arr);
 	 printArr(arr);
-	 foo()
     }
 
     public static void sort(int[] arr){
@@ -35,13 +34,12 @@ public class Main {
             System.out.print(item + " ");
     }
 
+    public static void foo () {
+        
+    }
     public static void swap(int [] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
-    }
-
-    public static void foo(){
-        System.out.print("foo");
     }
 }
