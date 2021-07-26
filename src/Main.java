@@ -10,7 +10,6 @@ public class Main {
      }
 	 sort(arr);
 	 printArr(arr);
-	 foo()
     }
 
     public static void sort(int[] arr){
